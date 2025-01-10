@@ -1,4 +1,4 @@
-# 15-DevOps-Learning-Projects
+# Open Source Devops Learning App with 15 Projects to build in 2025
 Open Source Devops Learning App with 15 Projects to build in 2025
 Time and again the message everyone is trying to convey to budding devops engineers/learners is "Build Real World Skill", build projects, use an open source app etc. However the problems I realize with most such apps are,
 
