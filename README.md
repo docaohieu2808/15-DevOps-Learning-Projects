@@ -78,7 +78,7 @@ If you are interested in contributing to this project, just fork it, add your lo
 
 And if you like this project and think it deserves one, feel free to add a GitHub star :)
 
-===================================================================================================
+===========================================================================
 
 Open Source DevOps Learning App với 15 Dự Án để xây dựng vào năm 2025
 Giới thiệu
