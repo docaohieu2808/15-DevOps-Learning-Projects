@@ -94,106 +94,103 @@ Vì vậy, vào năm 2024, tôi đã xây dựng một ứng dụng microservice
 Link GitHub: https://github.com/craftista/craftista
 
 Tính năng của ứng dụng
-Công nghệ hiện đại:
 
-Sử dụng các công nghệ phổ biến và được ưa chuộng như NodeJS với Express.js, Python, Golang, Spring Boot, MongoDB và PostgreSQL.
-Xây dựng theo từng bước:
+Công nghệ hiện đại: Sử dụng các công nghệ phổ biến và được ưa chuộng như NodeJS với Express.js, Python, Golang, Spring Boot, MongoDB và PostgreSQL.
 
-Cho phép bạn xây dựng ứng dụng theo từng bước nhỏ, bắt đầu với frontend và dần dần thêm các dịch vụ backend.
-Thông tin hệ thống:
+Xây dựng theo từng bước: Cho phép bạn xây dựng ứng dụng theo từng bước nhỏ, bắt đầu với frontend và dần dần thêm các dịch vụ backend.
 
-Hiển thị thông tin hữu ích từ frontend như ứng dụng có đang chạy trong container hay không, chạy trên Kubernetes, địa chỉ IP, hostname, v.v.
-Kiểm thử:
+Thông tin hệ thống: Hiển thị thông tin hữu ích từ frontend như ứng dụng có đang chạy trong container hay không, chạy trên Kubernetes, địa chỉ IP, hostname, v.v.
 
-Bao gồm các bài kiểm thử đơn vị và tích hợp hoạt động, giúp bạn hiểu rõ hơn về tầm quan trọng của kiểm thử trong phát triển phần mềm.
-Bảng điều khiển dịch vụ:
+Kiểm thử: Bao gồm các bài kiểm thử đơn vị và tích hợp hoạt động, giúp bạn hiểu rõ hơn về tầm quan trọng của kiểm thử trong phát triển phần mềm.
 
-Cung cấp dashboard giám sát dịch vụ, cho biết trạng thái của các dịch vụ backend.
-Giao diện người dùng cho API Services:
+Bảng điều khiển dịch vụ: Cung cấp dashboard giám sát dịch vụ, cho biết trạng thái của các dịch vụ backend.
 
-Giao diện đơn giản giúp bạn xác minh hoạt động của từng dịch vụ backend.
-Triển khai linh hoạt:
+Giao diện người dùng cho API Services: Giao diện đơn giản giúp bạn xác minh hoạt động của từng dịch vụ backend.
 
-Cho phép triển khai ứng dụng mà không cần cài đặt MongoDB và PostgreSQL bằng cách sử dụng SQLite và file JSON, và chuyển đổi sang cơ sở dữ liệu khác khi bạn sẵn sàng.
-Quản lý phiên bản ứng dụng:
+Triển khai linh hoạt: Cho phép triển khai ứng dụng mà không cần cài đặt MongoDB và PostgreSQL bằng cách sử dụng SQLite và file JSON, và chuyển đổi sang cơ sở dữ liệu khác khi bạn sẵn sàng.
 
-Dễ dàng tăng phiên bản, xây dựng image mới và đẩy lên, cung cấp phản hồi trực quan ngay lập tức khi phiên bản mới hoạt động.
-Tài liệu chi tiết:
+Quản lý phiên bản ứng dụng: Dễ dàng tăng phiên bản, xây dựng image mới và đẩy lên, cung cấp phản hồi trực quan ngay lập tức khi phiên bản mới hoạt động.
 
-Cung cấp mô tả về kiến trúc, công nghệ, lý do lựa chọn công nghệ và các tính năng chính.
+Tài liệu chi tiết: Cung cấp mô tả về kiến trúc, công nghệ, lý do lựa chọn công nghệ và các tính năng chính.
+
 10 Dự Án Cơ Bản để Xây Dựng Kỹ Năng DevOps
-Container hóa với Docker:
 
+Container hóa với Docker:
 Viết Dockerfile cho mỗi dịch vụ.
 Sử dụng Docker Compose để chạy toàn bộ ứng dụng microservices.
 Tự động hóa môi trường phát triển.
-Xây dựng Pipeline CI:
 
+Xây dựng Pipeline CI:
 Thiết lập pipeline CI bằng Jenkins, GitHub Actions hoặc Azure DevOps.
 Tích hợp kiểm thử và xây dựng tự động.
-Triển khai lên Kubernetes:
 
+Triển khai lên Kubernetes:
 Viết manifest Kubernetes để tạo Deployments, Services, PersistentVolumeClaims, ConfigMaps, StatefulSets, v.v.
 Hiểu về orchestration và quản lý container.
-Đóng gói với Helm:
 
+Đóng gói với Helm:
 Viết chart Helm để tạo mẫu cho manifest Kubernetes.
 Chuẩn bị cho việc triển khai ở các môi trường khác nhau.
-Triển khai Blue/Green và Canary với ArgoCD/GitOps:
 
+Triển khai Blue/Green và Canary với ArgoCD/GitOps:
 Thiết lập chiến lược phát hành với Argo Rollouts kết hợp ArgoCD.
 Tích hợp với pipeline CI để tạo luồng công việc CI/CD hoàn chỉnh.
-Thiết lập Observability:
 
+Thiết lập Observability:
 Cài đặt giám sát với Prometheus và Grafana.
 Thiết lập log management với ELS/EFK Stack hoặc Splunk.
 Tích hợp tự động rollback bằng Argo.
+
 Xây dựng Pipeline DevSecOps:
-
 Thêm SCA (Software Composition Analysis), SAST (Static Application Security Testing), quét image, DAST (Dynamic Application Security Testing), kiểm tra tuân thủ, quét Kubernetes, v.v. vào mỗi giai đoạn của pipeline.
-Thiết kế và xây dựng hạ tầng Cloud:
 
+Thiết kế và xây dựng hạ tầng Cloud:
 Xây dựng hạ tầng đám mây mở rộng, sẵn sàng cao, có khả năng chịu lỗi để lưu trữ ứng dụng.
 Áp dụng các nguyên tắc về khả năng mở rộng và độ tin cậy.
-Viết Terraform Templating:
 
+Viết Terraform Templating:
 Tự động hóa hạ tầng đã thiết kế ở dự án 8 bằng Terraform.
 Sử dụng Terragrunt cho cấu hình nhiều môi trường.
-Script Python cho tự động hóa:
 
+Script Python cho tự động hóa:
 Tự động hóa các nhiệm vụ ad-hoc bằng script Python.
 Tối ưu hóa quy trình và giảm thiểu công việc thủ công.
 5 Dự Án Nâng Cao để Nâng Tầm Kỹ Năng
-Triển khai trên EKS/AKS:
 
+Triển khai trên EKS/AKS:
 Xây dựng cluster EKS (Amazon Elastic Kubernetes Service) hoặc AKS (Azure Kubernetes Service).
 Triển khai ứng dụng với các gói Helm đã tạo.
-Triển khai Service Mesh với Istio:
 
+Triển khai Service Mesh với Istio:
 Thiết lập observability nâng cao, quản lý và điều chỉnh lưu lượng.
 Áp dụng mutual TLS, client retries và các tính năng khác của Istio.
-AIOps:
 
+AIOps:
 Tích hợp mô hình Machine Learning.
 Sử dụng Falco và Argo Workflow để giám sát tự động, phản ứng và khắc phục sự cố.
-Thực hành SRE (Site Reliability Engineering):
 
+Thực hành SRE (Site Reliability Engineering):
 Thực hiện các SLI (Service Level Indicators), SLO (Service Level Objectives), SLA (Service Level Agreements).
 Thiết lập các thực hành SRE để cải thiện độ tin cậy hệ thống.
-Chaos Engineering:
 
+Chaos Engineering:
 Sử dụng LitmusChaos để kiểm tra khả năng chịu lỗi của hạ tầng đám mây.
 Xây dựng hệ thống có khả năng tự phục hồi và chống chịu sự cố.
+
 Bắt đầu như thế nào?
+
 Thử nghiệm ứng dụng:
 
 Truy cập Craftista trên GitHub để khám phá mã nguồn và tài liệu.
 Triển khai ứng dụng trong 5 phút nếu bạn đã cài đặt Docker bằng cách theo hướng dẫn tại craftista-demo.
+
 Đóng góp cho dự án:
 
 Fork repository, thêm đóng góp của bạn và gửi pull request.
 Liên hệ nếu bạn muốn tích cực duy trì và đóng góp cho dự án.
+
 Kết luận
+
 Các dự án trên cung cấp cho bạn một lộ trình toàn diện để phát triển kỹ năng DevOps thực tế. Bằng cách thực hiện chúng, bạn sẽ có được kinh nghiệm thực tiễn với các công cụ và phương pháp hiện đại, chuẩn bị tốt cho sự nghiệp trong lĩnh vực DevOps.
 
 Nếu bạn thấy dự án này hữu ích, hãy thêm một ngôi sao trên GitHub!
